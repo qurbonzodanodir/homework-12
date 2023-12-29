@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main{
+    display: flex;
+}
+.main .divleft {
+    position: fixed;
+    left: 0;
+  width: 23%;
+  font-size: 25px;
+  height: 50px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  border-right: 1px solid black;
+  text-decoration: none;
+  
+}
+.divleft a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 25px;
+  font-size: 20px;
+}
+.divleft a:hover {
+  background-color: grey;
+
+
+}
+.surat img{
+    border-radius: 50%;
+    border: 3px solid black;
+    padding: 4px 4px 4px 4px ;
+}
+.divright1{
+    height:100px;
+}
+.divright{
+    display: flex;
+    margin-top: 50px;
+    width: 500px;
+
+}
+.text a, i{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+span{
+    background-color: grey;
+    color: black;
+    padding: 4px 20px;
+    border-radius: 8px;
+}
+#pro{
+    background-color: grey;
+    color: black;
+    padding: 4px;
+    border-radius: 8px;
+}
+#pro:hover{
+    background-color:lightgray;
+}
+span:hover{
+    background-color:lightgray;
+}
+.tex{
+    display: flex;
+    margin: 30px -28px;
+}
+.tex h3{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.prog{
+    margin-left: 23px;
+}
+.images{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    padding-bottom: 70px;
+}
+.images1 img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+ 
+}
+.images1{
+ width: 100px;
+ height: 100px;
+}
+.images1 h3{
+    font-size: 12px;
+    margin-left: 15px;
+}
+.srt{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+}
+.surat1{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+.surat2 img{
+    width: 80%;
+    height: 300px;
+    margin-left: 40px;
+    margin-left: 40px;
+}
+
+.divright1{
+    margin-left: 450px;
+    margin-right:100px;
+}
+.rew{
+    width: 390px;
+    height: 400px;
+    position: relative;
+    padding: 0px 10px;
+}
+.rew img{
+    width: 100%;
+    height: 100%;
+}
+.icons{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+.icons span{
+    color: white;
+    margin-left:5px;
+    display: none;
+}
+.rew:hover .icons span{
+    display: block;
+}
+.rew:hover .icons{
+    background-color: rgba(14, 9, 13, 0.7);
+}
+.footer{
+    display: flex;
+    width: 1000px;
+
+}
